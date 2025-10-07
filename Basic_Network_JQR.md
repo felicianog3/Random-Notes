@@ -13,3 +13,20 @@
 * Active: packets are sent to the target to analyze the response data. This involves the establishment of a connection between the host and the target client
 
 ## Intro to MITRE ATT&CK
+### ELOs
+#### Explain how registry keys are used from an adversary perspective
+* 
+#### Discuss the importance of footprinting and fingerprinting
+* identify the function of network services
+* mapping an organization's network; finding key points and personnel of interest
+#### Discuss the importance of probing and enumeration
+* connecting to many netowork ports and IP address to see their response
+#### Discuss adversary offensive actions in relation to the MITRE ATT&CK framework
+
+#### Describe how an adversary removes evidence
+
+#### Describe data mining
+* Identifying servers containing databases and stealing the data directly
+#### Explain security measures when given an adversary TTP
+
+#### Explain security controls to detect and inhibit known adversary TTP
