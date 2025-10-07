@@ -37,6 +37,7 @@
 ### ELOs
 #### Understand methods for identifying adversarial Tactics, Techniques, and Procedures (TTP) from MITRE
 * monitoring for suspicious network traffic that could be indicative of probing for email addresses and/or usernames, such as large/iterative quantities of authentication requests originating from a single source
+* using malware forensics, up-to-date antivirus software, or a known malware database
 #### Understand the common Command and Control (C2) beaconing methods and attributes
 
 #### Understand obfuscation techniques
