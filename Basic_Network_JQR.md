@@ -30,3 +30,26 @@
 #### Explain security measures when given an adversary TTP
 
 #### Explain security controls to detect and inhibit known adversary TTP
+
+## Intro to Network Traffic Analysis
+* cyber kill chain: seven-step methodology developed by Lockheed Martin, outlining the steps an attacker takes to infiltrate a network or system
+* MITRE ATT%CK matrix: comprehensive knowledge base of attack techniques and tactics based on real-world observations
+### ELOs
+#### Understand methods for identifying adversarial Tactics, Techniques, and Procedures (TTP) from MITRE
+* monitoring for suspicious network traffic that could be indicative of probing for email addresses and/or usernames, such as large/iterative quantities of authentication requests originating from a single source
+#### Understand the common Command and Control (C2) beaconing methods and attributes
+
+#### Understand obfuscation techniques
+
+#### Understand Address Resolution Protocol (ARP) spoofing
+
+#### Understand different types of attack methods, including Man-in-the-Middle (MitM) or Person-in-the-Middle (PitM) attacks
+
+#### Understand data exfiltration techniques
+  
+#### Understand link and timeline analysis
+
+
+
+
+
