@@ -15,7 +15,7 @@
 ## Intro to MITRE ATT&CK
 ### ELOs
 #### Explain how registry keys are used from an adversary perspective
-* 
+* persistence in a target device can be achieved by altering registry keys such as HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run
 #### Discuss the importance of footprinting and fingerprinting
 * identify the function of network services
 * mapping an organization's network; finding key points and personnel of interest
@@ -24,7 +24,7 @@
 #### Discuss adversary offensive actions in relation to the MITRE ATT&CK framework
 
 #### Describe how an adversary removes evidence
-
+* obfuscating code, using rootkits, or employing encryption to conceal malicious activities
 #### Describe data mining
 * Identifying servers containing databases and stealing the data directly
 #### Explain security measures when given an adversary TTP
