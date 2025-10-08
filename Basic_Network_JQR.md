@@ -64,6 +64,52 @@
 * provides insight into adversary activities by chronologically ordering events
 * Link Analysis: statistics and relationships within a given dataset
 
+## Intro to Networking Concepts
+
+### ELOs
+#### Describe Network Address Translation (NAT)
+
+#### Describe the benefits of different network devices
+
+#### Identify common tunneling protocols and Virtual Private Network (VPN) concepts
+
+#### Describe the concept of packet sniffing and Packet Capture (PCAP)
+
+#### Differentiate Type 5 versus Type 7 password hashing and encryptions
+
+#### Describe the Open Systems Interconnection (OSI) model
+
+#### Differentiate between routable and non-routable spaces as it relates to IP addresses
+
+#### Describe the importance of Request for Comments (RFC)
+
+#### Explain the information contained within IPv4 and IPv6, Transmission Control Protocol (TCP), User Datagram Protocol (UDP), and Internet Control Message Protocol (ICMP) headers
+
+#### Understand cloud concepts such as Software as a Service (SaaS), Platform as a Service (PaaS), and Infrastructure as a Service (IaaS)
+
+#### Understand the function of common networking appliances
+
+#### Explain Authentication, Authorization and Accounting (AAA) in Remote Authentication Dial-In User Service (RADIUS), Terminal Access Controller Access-Control System (TACACS+), Kerberos, and New Technology LAN Manager (NTLM)
+
+#### Differentiate between Intrusion Detection Systems (IDS) and Intrusion Prevention Systems (IPS)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
