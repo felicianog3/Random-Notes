@@ -37,6 +37,9 @@
 * SIEM:
   * EventID 5140: Server Message Block [SMB] Share access
   * EventID 4688: Process Execution
+* System Monitor
+  * EventID 17 & 18: pipe creations, searching for administrator share access
+ Named Pipes
 ### ELOs
 #### Understand methods for identifying adversarial Tactics, Techniques, and Procedures (TTP) from MITRE
 * monitoring for suspicious network traffic that could be indicative of probing for email addresses and/or usernames, such as large/iterative quantities of authentication requests originating from a single source
