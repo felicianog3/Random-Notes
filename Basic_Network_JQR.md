@@ -57,9 +57,11 @@
 * adversary eavesdrops on a conversation between two hosts
 * execute code to capture credentials for privilege escalation
 #### Understand data exfiltration techniques
-  
+ * accomplished across existing C2 channels, cloud providers, online storage providers, or even through removable media if adversaries have physical access
+ * extract small bits at a time to avoid detection
 #### Understand link and timeline analysis
-
+* trace the attacker's activities back to the source of the intrusion
+* provides insight into adversary activities by chronologically ordering events
 
 
 
