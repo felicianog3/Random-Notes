@@ -62,6 +62,7 @@
 #### Understand link and timeline analysis
 * trace the attacker's activities back to the source of the intrusion
 * provides insight into adversary activities by chronologically ordering events
+* Link Analysis: statistics and relationships within a given dataset
 
 
 
