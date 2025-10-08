@@ -33,19 +33,26 @@
 
 ## Intro to Network Traffic Analysis
 * cyber kill chain: seven-step methodology developed by Lockheed Martin, outlining the steps an attacker takes to infiltrate a network or system
-* MITRE ATT%CK matrix: comprehensive knowledge base of attack techniques and tactics based on real-world observations
+* MITRE ATT&CK matrix: comprehensive knowledge base of attack techniques and tactics based on real-world observations
+* SIEM:
+  * EventID 5140: Server Message Block [SMB] Share access
+  * EventID 4688: Process Execution
 ### ELOs
 #### Understand methods for identifying adversarial Tactics, Techniques, and Procedures (TTP) from MITRE
 * monitoring for suspicious network traffic that could be indicative of probing for email addresses and/or usernames, such as large/iterative quantities of authentication requests originating from a single source
 * using malware forensics, up-to-date antivirus software, or a known malware database
 #### Understand the common Command and Control (C2) beaconing methods and attributes
-
+* one concept is using the compromised hosts to communicate back to the adversary
 #### Understand obfuscation techniques
-
+* an adversary applies jitter, or randomness, to the beacon timing to make it more difficult to track (there is no longer regular intervals for a team to monitor)
+* Data Masking: alters sensitive fields within the traffic (such as usernames, passwords, or personal identifiers) by replacing them with fictitious but realistic values, ensuring the underlying structure is preserved while hiding the true information.
+* Data Encoding: transforms data into another format, such as Base64 or hexadecimal, which conceals the original content from direct readability while still being REVERSIBLE
 #### Understand Address Resolution Protocol (ARP) spoofing
-
+* form of MitM attack that allows adversaries to intercept communications between network devices by sending poisoned ARP responses pretending to be one of the authentic devices and beginning to intercept credentials intended for a different system
 #### Understand different types of attack methods, including Man-in-the-Middle (MitM) or Person-in-the-Middle (PitM) attacks
-
+* MitM: arp spoofing
+* adversary eavesdrops on a conversation between two hosts
+* execute code to capture credentials for privilege escalation
 #### Understand data exfiltration techniques
   
 #### Understand link and timeline analysis
