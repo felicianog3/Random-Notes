@@ -64,35 +64,83 @@
 * provides insight into adversary activities by chronologically ordering events
 * Link Analysis: statistics and relationships within a given dataset
 
+
+
+
+
 ## Intro to Networking Concepts
+* Switch Spoofing: attacker negotiates a trunk link to a legitimate switch to intercept traffic destined for another VLAN
+* Spanning Tree Protocol (STP): works at closing off redundant paths until needed, which eliminates the possibility of loops occurring
 
 ### ELOs
 #### Describe Network Address Translation (NAT)
-
+* assigns a public IP address to a computer or group of computers when sending traffic outside the internal network
+* When the response comes back, the same device translates the public IP address back to the corresponding private IP address to deliver the message to the internal device
+* 3 Primary Types
+  * One-to-One: provides direct mapping between internal and external address
+  * Dynamic: multiple internal devices to share a smaller number of public IP addresses
+  * Port Address Translation (PAT): (aka NAT Overload) maps multiple internal IP addresses to a single public IP address by using different port numbers for each session
+ 
 #### Describe the benefits of different network devices
+* Router:
+  * manages traffic between networks by transmitting data packets to IP addresses
+  * Some routers also act as Wireless Access Points (WAP) that provide Wireless Fidelity (WiFi) but are also capable of wired connections such as ethernet
+  * provide network segmentation and filtering capabilities supporting Defense in Depth strategies
+* Layer 3 Switch:
+  * switch offering routing capabilities, and an easier configuration of subnets because a router is not required between each VLAN
+  * add additional network segmentation instead of relying on upstream routers
+*
 
 #### Identify common tunneling protocols and Virtual Private Network (VPN) concepts
+*  done by establishing a digital connection between the host and VPN provider, thereby creating a 1:1 connection that encrypts the data transmissions, masking IP addresses, and avoiding some website blockers and firewalls (depending on the settings
+*   virtual because there are no physical cables in the connection process, private because it is designed for encryption and security, and networked because it links the host computer directly to the VPN server
 
 #### Describe the concept of packet sniffing and Packet Capture (PCAP)
+* capture and analyze network traffic
+* capture traffic in promiscuous mode, allowing them to intercept and log all traffic on the network segment, not just the traffic addressed to the NIC
+* Tools: Wireshark, Tshark, TCPDump, NetworkMiner, Zeek, and Suricata
+* uses the most space and scales the worst but provides the most in-depth information due to being a bit-for-bit copy
 
 #### Differentiate Type 5 versus Type 7 password hashing and encryptions
 
 #### Describe the Open Systems Interconnection (OSI) model
+* 7 layer model that describes the process of communication between hardware and network devices
 
 #### Differentiate between routable and non-routable spaces as it relates to IP addresses
 
 #### Describe the importance of Request for Comments (RFC)
-
+* standardize the internet technologies seen and interacted with every day. They are formal documents from the Internet Engineering Task Force (IETF) that outline standards and specifications for topics pertaining to networking and the internet
+* allow for interoperability between developers
+  
 #### Explain the information contained within IPv4 and IPv6, Transmission Control Protocol (TCP), User Datagram Protocol (UDP), and Internet Control Message Protocol (ICMP) headers
 
 #### Understand cloud concepts such as Software as a Service (SaaS), Platform as a Service (PaaS), and Infrastructure as a Service (IaaS)
-
+* PaaS:
+  * provides a comprehensive platform for developers to build, deploy , and manage applications without managing infrastructure
+  * ready-to-use
+  * enhances productivity
+* SaaS:
+  * software applications over the internet on a subscription basis
+  * no need for local installation
+  * cost effective way to access a range of services
+* IaaS:
+  * provides virtual machines, storage, and networking over the internet
+  * pay as you go
+  * reduces operational and maintence burden
+ 
 #### Understand the function of common networking appliances
 
 #### Explain Authentication, Authorization and Accounting (AAA) in Remote Authentication Dial-In User Service (RADIUS), Terminal Access Controller Access-Control System (TACACS+), Kerberos, and New Technology LAN Manager (NTLM)
+* RADIUS is a networking protocol that provides centralized Authentication, Authorization, and Accounting (AAA) management.
+* TACACS+ is an authentication protocol typically providing centralized validation to access a router or Network Attached Storage (NAS)
+  * combines AAA into one protocol
+  * Easily integrates with AD resources and Multi-Factor Authentication (MFA) methods
+* Windows New Technology LAN Manager (NTLM) is a proprietary suite of security protocols that offer AAA tools
+  * Windows AD resource management, it consists of a challenge-response authentication protocol to allow access
+  * several known security vulnerabilities that make it less secure than more contemporary protocols such as Kerberos
 
 #### Differentiate between Intrusion Detection Systems (IDS) and Intrusion Prevention Systems (IPS)
-
+* 
 
 
 
