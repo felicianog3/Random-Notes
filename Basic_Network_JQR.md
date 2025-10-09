@@ -176,17 +176,55 @@
 * Operational Impact Validation: reherse the mission in a lab with virtually replicated networks and validate capabilities 
 
 #### Orders Production and Dissemination
-
+* operational level orders production team receives the final outputs from Step 3. Outputs are developed into a formal operations order or TASKORD
 
 #### Tactical Planning and Mission Execution
-
+* create a tactical mission plan that:
+  * articulates objectives and tasks
+  * pairs capabilities to tasks
+  * establishes data collection, sensor management plan, mission phases, contracts, and communications plan
+  * develop contingencies and tactical assessments
+* prior to mission:
+  * CONOP briefing to the Supported Commander, Higher HQ Commander, and/or Mission Owner IT/Signal support personnel
+  * tabletop exercise with analytic, admin, and logistical support personnel
+ * Provide commanders and staff with daily SITREPs to make informed decisions during mission execution
+* Workflow:
+  * validate operations of equipment
+  * hunt for suspicious events and IoC
+  * find the scope of the IoC
+  * report findings to the ME leador a SOP dictate
+* After Action Review (AAR):
+  * evaluate and analyze the intended and actual outcomes of an event, project, or operation
+  *  identify strengths, weaknesses, decisions to sustain or improve future missions, and areas for improvement, enabling organizations to enhance their performance in future endeavors
 
 #### Briefings
-
+* In-Brief: the mission purpose, CONOP, intel, and expected actions
+* Out-Brief: reiterates the mission purpose and details any deviations from what was expected
 
 #### Mission Resources and Platforms
 
 
+
+## Intro to Tooling
+
+### ELOs
+
+#### Cisco Internetworking Operating System (IOS)
+
+
+#### Suricata
+
+
+#### Scanning
+
+
+#### Security Information and Event Management (SIEM) technologies
+
+
+#### Packet Capture (PCAP) and analysis tools
+
+
+#### Remote administration
 
 
 
