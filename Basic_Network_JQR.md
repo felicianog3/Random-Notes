@@ -144,10 +144,44 @@
 
 
 
+## Intro to Opertations
+
+### ELOs
+
+#### CPT Operations
 
 
+#### Objectives, Effects, and Guidance
+* PLANORD
+  * outlines the planning and execution of a specific operation or mission
+  * datails info such as mission's objectives, concept of operations, intel assesssments, available resources, timelines, and command structure
+  * ensures there is a clear coordinated approach
+* TASKORD:
+  * assign tasks and responsibilities to units and individuals involved in an operation or mission
+  * outlines the precise tasks, objectives, timelines, and coordination requirements for each element of the force, ensuring that everyone understands their role and the overall mission's goals
+
+#### Terrain Identification and Prioritization
+* during Mission Analysis process, the cpt will condict a technical survey of the supported commander’s network to identify MRT-C
+* Key Terrain Cyber (KT-C):
+  * any cyberspace terrain that affords any combatant a position of marked advantage when held
+  * including security devices that control access, observation points, and MRT-C
+* Mission Relevant Terrain (MRT-C):
+  *  all devices, internal or external links, Operating Systems (OS), services, applications, ports, protocols, hardware, and software on servers required to enable the function of a critical asset
+* terrain identification helps assess threats and relevant information
+
+#### Capability Analysis and Force Allocation
 
 
+#### Orders Production and Dissemination
+
+
+#### Tactical Planning and Mission Execution
+
+
+#### Briefings
+
+
+#### Mission Resources and Platforms
 
 
 
