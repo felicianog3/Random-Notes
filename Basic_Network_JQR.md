@@ -170,7 +170,10 @@
 * terrain identification helps assess threats and relevant information
 
 #### Capability Analysis and Force Allocation
-
+* analysis of operating picture and equipment
+* tradecraft needs, limitations, noise level
+* refine objectives and desired effects based on plans
+* Operational Impact Validation: reherse the mission in a lab with virtually replicated networks and validate capabilities 
 
 #### Orders Production and Dissemination
 
