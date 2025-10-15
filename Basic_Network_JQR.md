@@ -230,7 +230,9 @@
 ## Threat Hunting I
 
 * a large amount of get request in the beginning of traffic could be indicitive of brute force occuring
-
+* http user agent of HYDRA could be an indicator of password spraying
+* Password Spray Attack:
+  * cyber attack in which an attacker attempts a few commonly used passwords or a list of commonly used passwords against a large number of usernames or accounts. This attack is designed to evade account lockout mechanisms, as the attacker tries only a limited number of passwords per account, reducing the risk of being detected
 
 
 
