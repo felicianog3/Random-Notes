@@ -227,7 +227,9 @@
 #### Remote administration
 
 
+## Threat Hunting I
 
+* a large amount of get request in the beginning of traffic could be indicitive of brute force occuring
 
 
 
