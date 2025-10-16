@@ -233,7 +233,8 @@
 * http user agent of HYDRA could be an indicator of password spraying
 * Password Spray Attack:
   * cyber attack in which an attacker attempts a few commonly used passwords or a list of commonly used passwords against a large number of usernames or accounts. This attack is designed to evade account lockout mechanisms, as the attacker tries only a limited number of passwords per account, reducing the risk of being detected
-
+* Directory Brute Force Attack:
+  * server response changes from 401 Unauthorized to 404 Not Found. This indicates that the attacker has identified valid credentials and is starting a directory brute force attack
 
 
 
